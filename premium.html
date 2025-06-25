@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <h1>Dap<span class="tec">Toon</span></h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="update.html">Update </a></li>
+            <li><a href="premium.html"><span class="biru">Premium</span></a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <div class="navbar-search">
+            <input type="text" placeholder="cari manhwa...">
+            <a href="login.html">Sign in</a>
+        </div>
+    </nav>
+    <section class="premium-packages">
+        <div class="premium-info">
+            <h2>Keuntungan Premium</h2>
+            <p class="premium-description">
+                Dengan membeli Premium, Anda bisa membaca semua konten tanpa Iklan dan sekaligus mendukung translator agar kita bisa terus menghadirkan Chapter terbaru dan Manhwa/Manga seru.
+            </p>
+        </div>
+        <h2>Paket Premium</h2>
+        <form action="index.html" method="get">
+            <div class="package-list">
+                <label class="package-card">
+                    <input type="radio" name="package" value="Premium Tahunan" required>
+                    <h3>Premium Tahunan</h3>
+                    <span class="price">Rp.149.000</span>
+                    <small class="discount">Diskon 32%</small>
+                </label>
+                <label class="package-card">
+                    <input type="radio" name="package" value="Premium 6 Bulan" required>
+                    <h3>Premium 6 Bulan</h3>
+                    <span class="price">Rp.90.000</span>
+                </label>
+                <label class="package-card">
+                    <input type="radio" name="package" value="Premium 3 Bulan" required>
+                    <h3>Premium 3 Bulan</h3>
+                    <span class="price">Rp.50.000</span>
+                </label>
+                <label class="package-card">
+                    <input type="radio" name="package" value="Premium 1 Bulan" required>
+                    <h3>Standard 1 Bulan</h3>
+                    <span class="price">Rp.20.000</span>
+                </label>
+            </div>
+            <h2>Pilih Metode Pembayaran</h2>
+            <div class="methods-list">
+                <label class="method-card">
+                    <input type="radio" name="payment" value="Dana" required>Dana
+                </label>
+                <label class="method-card">
+                    <input type="radio" name="payment" value="Paypal" required>Paypal
+                </label>
+                <label class="method-card">
+                    <input type="radio" name="payment" value="Gopay" required>Gopay
+                </label>
+            </div>
+            <button type="submit" class="pay-button">Beli</button>
+        </form>
+    </section>
+</body>
+</html>
